@@ -4,6 +4,7 @@
     "description": "API service for content moderation and user management",
     "main": "dist/server.js",
     "scripts": {
+        "dev": "ts-node src/server.ts",
         "start": "ts-node src/server.ts",
         "build": "tsc"
     },

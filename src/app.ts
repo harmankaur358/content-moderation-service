@@ -1,6 +1,8 @@
 import dotenv from "dotenv";
+
 // Load environment variables
 dotenv.config();
+console.log("ENV Loaded:", process.env.NODE_ENV);
 
 import express, { Express, Request, Response } from "express";
 import morgan from "morgan";
